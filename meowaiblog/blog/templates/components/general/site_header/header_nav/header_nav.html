@@ -1,6 +1,6 @@
 {% load static %}
 <ul class="header__nav">
-    <li class="current"><a href="{% url 'blog:index' %}" title="">Trang Chủ</a></li>
+    <li><a href="{% url 'blog:index' %}" title="">Trang Chủ</a></li>
     <li class="has-children">
         <a href="#0" title="">Thể Loại</a>
         <ul class="sub-menu">
@@ -19,7 +19,7 @@
         <li><a href="{% url 'blog:index' %}">Standard Post</a></li>
         </ul>
     </li> -->
-    <li><a href="page-about.html" title="">Về Chúng Tôi</a></li>
+    <li><a href="{% url 'blog:about' %}" title="">Về Chúng Tớ</a></li>
     <li><a href="page-contact.html" title="">Liên Lạc</a></li>
     <li><a href="styles.html" title="">Buy Us Some Fishes</a></li>
 </ul> <!-- end header__nav -->

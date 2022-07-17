@@ -11,3 +11,9 @@ def index(request):
         request,
         'pages/index.html'
     )
+
+def about(request):
+    return render(
+        request,
+        'pages/about.html'
+    )
