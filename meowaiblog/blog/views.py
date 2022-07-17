@@ -17,3 +17,9 @@ def about(request):
         request,
         'pages/about.html'
     )
+
+def blog(request):
+    pass 
+
+def category(request):
+    pass
